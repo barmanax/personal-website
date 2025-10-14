@@ -97,3 +97,7 @@
         text-align: justify;
     }
 }
+
+#hamburger-nav { position: relative; z-index: 1000; }
+.hamburger-menu { position: relative; }              /* anchor for absolute dropdown */
+.menu-links { position: absolute; top: 100%; right: 0; z-index: 2000; background: #fff; }
