@@ -281,7 +281,7 @@ section {
 
 .arrow {
     position: absolute;
-    right: -5rem;
+    right: 5rem;
     bottom: 2.5rem;
 }
 
@@ -382,7 +382,8 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh; 
+    height: 70vh;
+    position: relative; 
 }
 
 .contact-info-upper-container {
@@ -414,6 +415,13 @@ article .icon {
 
 .email-icon {
     height: 2.5rem;
+}
+
+.arrow-up {
+    position: absolute;
+    right: 5rem;
+    bottom: 2.5rem;
+    transform: rotate(180deg);
 }
 
 /* FOOTER SECTION */
